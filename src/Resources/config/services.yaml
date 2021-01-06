@@ -7,6 +7,6 @@ services:
     autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
 
   # Doctrine event subscriber
-  App\DoctrineExtendBundle\EventSubscriber\EntityEventSubscriber:
+  JeckelLab\DoctrineExtendBundle\EventSubscriber\EntityEventSubscriber:
     tags:
       - { name: doctrine.event_subscriber, connection: default }

@@ -7,13 +7,13 @@
 
 declare(strict_types=1);
 
-namespace App\DoctrineExtendBundle\Helper;
+namespace JeckelLab\DoctrineExtendBundle\Helper;
 
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Trait SluggableTrait
- * @package App\DoctrineExtendBundle\Helper
+ * @package JeckelLab\DoctrineExtendBundle\Helper
  */
 trait SluggableTrait
 {

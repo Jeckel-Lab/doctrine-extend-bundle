@@ -7,15 +7,15 @@
 
 declare(strict_types=1);
 
-namespace App\DoctrineExtendBundle;
+namespace JeckelLab\DoctrineExtendBundle;
 
-use App\DoctrineExtendBundle\DependencyInjection\DoctrineExtendExtension;
+use JeckelLab\DoctrineExtendBundle\DependencyInjection\DoctrineExtendExtension;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * Class JeckelLabDoctrineExtendBundle
- * @package App\DoctrineExtendBundle
+ * @package JeckelLab\DoctrineExtendBundle
  */
 class JeckelLabDoctrineExtendBundle extends Bundle
 {

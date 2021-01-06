@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace App\DoctrineExtendBundle\EventSubscriber;
+namespace JeckelLab\DoctrineExtendBundle\EventSubscriber;
 
-use App\DoctrineExtendBundle\Helper\CreatedAtInterface;
-use App\DoctrineExtendBundle\Helper\SluggableInterface;
-use App\DoctrineExtendBundle\Helper\UpdatedAtInterface;
+use JeckelLab\DoctrineExtendBundle\Helper\CreatedAtInterface;
+use JeckelLab\DoctrineExtendBundle\Helper\SluggableInterface;
+use JeckelLab\DoctrineExtendBundle\Helper\UpdatedAtInterface;
 use Doctrine\Common\EventSubscriber;
 use Doctrine\Persistence\Event\LifecycleEventArgs;
 use Doctrine\ORM\Events;
@@ -15,7 +15,7 @@ use Symfony\Component\String\Slugger\SluggerInterface;
 
 /**
  * Class EntityEventSubscriber
- * @package App\DoctrineExtendBundle\EventSubscriber
+ * @package JeckelLab\DoctrineExtendBundle\EventSubscriber
  */
 final class EntityEventSubscriber implements EventSubscriber
 {

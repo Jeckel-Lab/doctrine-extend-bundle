@@ -7,11 +7,11 @@
 
 declare(strict_types=1);
 
-namespace App\DoctrineExtendBundle\Helper;
+namespace JeckelLab\DoctrineExtendBundle\Helper;
 
 /**
  * Interface SluggableInterface
- * @package App\DoctrineExtendBundle\Helper
+ * @package JeckelLab\DoctrineExtendBundle\Helper
  */
 interface SluggableInterface
 {

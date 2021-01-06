@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DoctrineExtendBundle\Helper;
+namespace JeckelLab\DoctrineExtendBundle\Helper;
 
 use DateTimeImmutable;
 

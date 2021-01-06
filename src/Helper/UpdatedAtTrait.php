@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace App\DoctrineExtendBundle\Helper;
+namespace JeckelLab\DoctrineExtendBundle\Helper;
 
 use DateTimeImmutable;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Trait UpdatedAtTrait
- * @package App\DoctrineExtendBundle\Helper
+ * @package JeckelLab\DoctrineExtendBundle\Helper
  */
 trait UpdatedAtTrait
 {

@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace App\DoctrineExtendBundle\DependencyInjection;
+namespace JeckelLab\DoctrineExtendBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;
@@ -17,7 +17,7 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
 /**
  * Class DoctrineExtendExtension
- * @package App\DoctrineExtendBundle\DependencyInjection
+ * @package JeckelLab\DoctrineExtendBundle\DependencyInjection
  */
 class DoctrineExtendExtension extends Extension
 {
