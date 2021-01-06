@@ -1,5 +1,5 @@
 {
-    "name": "jeckel/doctrine-extend-bundle",
+    "name": "jeckel-lab/doctrine-extend-bundle",
     "description": "Extend some doctrine's functionalities with symfony and jeckel-lab's contract",
     "type": "symfony-bundle",
     "require": {
